@@ -1,0 +1,17 @@
+[package]
+name = "dgt_apt_contract_v2"
+version = "1.2.0"
+authors = []
+
+[addresses]
+dgt_apt_contract_v2 ='0xe8ec9945a78a48452def46207e65a0a4ed6acd400306b977020924ae3652ab85'
+
+[dev-addresses]
+dgt_apt_contract_v2 ='0xe8ec9945a78a48452def46207e65a0a4ed6acd400306b977020924ae3652ab85'
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

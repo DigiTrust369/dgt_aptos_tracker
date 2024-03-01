@@ -1,0 +1,19 @@
+{
+  "name": "dgt_aptos_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.9.1",
+    "aptos": "^1.21.0",
+    "redis": "^4.6.13"
+  }
+}
