@@ -1,4 +1,4 @@
-module dgt_apt_contract_v2::allocate_funding_v2 {
+module dgt_apt_contract_v4::allocate_funding_v4 {
     use aptos_framework::coin;
     use std::string::String;
     use std::signer;

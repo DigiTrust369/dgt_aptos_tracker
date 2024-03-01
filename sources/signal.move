@@ -1,4 +1,4 @@
-module dgt_apt_contract_v2::signal_v2 {
+module dgt_apt_contract_v4::signal_v4 {
     use std::string::String;
     use std::vector;
     use std::signer;
